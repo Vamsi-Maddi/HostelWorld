@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hostel World</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .navitem{
+          text-decoration : none  !important;
+          color : white  !important;
+        }
+
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark pt-3">
+   > <div class="container">
+        <a href="#" class="navbar-logo" style ="text-decoration: none;"></a><h1 style = "color:white">VIT-AP</h1></a>
+        <button class="navbar-toggler" type = "button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id = "navmenu">
+            <ul class = "navbar-nav ms-auto  p-2 navlist">
+                <li class=" mx-3 nav-item">
+                    <a href="#Amenities" class="navlink" style = "text-decoration: none;"> <h5 style = "color:white"> Amenities </h5></a>
+                </li>
+                <!-- <li class=" bg-dark nav-item">
+                  <select name=" Student corner" class ="nav-link mx-3 bg-dark " style = "font-size: 20px ; font-style : bolder; color : white;  padding : 0px" ><h3 style = "color:white">Student's Corner</h3>
+                   <option name = "student corner"><h3 style = "color:white">Student's Corner</h3></option>
+                   <option name = "student corner"><a href="wifi" class="navlink" style ="text-decoration: none;"></a> Wi-fi</option>
+                   <option name = "student corner"><a href="Leave_Form.html"  style ="text-decoration: none;">Leave form</a></option>
+                   <option name = "student corner"><a href="Outing_Form.html" class="navlink" style ="text-decoration: none;">Outing form</a> </option>
+                   <option name = "student corner"><a href="Complaint_Box.html" class="navlink" style ="text-decoration: none;">Post Complaint</a></option>
+                   <!-- <a href="#Student Corner" class="navlink px-3" >Student Corner  </a> -->
+                  </select>
+                </li> 
+                <li class=" mx-3 nav-item" >
+                    <a href="#Gallery" class="navlink" style ="text-decoration: none;"><h5 style="color:white">Gallery</h5></a>
+                </li>
+                <li class=" mx-3 nav-item">
+                    <a href="#Contact Us" class="navlink " style ="text-decoration: none;"><h5 style ="color:white">Contact Us</h5></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<nav class="navbar navbar  navbar-dark pt-3" style = "background:#1c1c1c">
+  > <div class="container">
+    <a href="#" class="navbar-logo col-6" style ="text-decoration: none;"><h1 style = "color:white">Student's Corner</h1></a>
+
+        <a href="leave_form.php" class="navlink " style ="text-decoration: none;"><h5 style ="color:white">Leave Form</h5></a>
+        <a href="outing_form.php" class="navlink " style ="text-decoration: none;"><h5 style ="color:white">Outing Form</h5></a>
+        <a href="complaint_box.php" class="navlink " style ="text-decoration: none;"><h5 style ="color:white">Post complaint</h5></a>
+</nav>
+
+<!-- End of navbar Section  -->
+
+<!-- start of hostel main page section -->
+
+<section class="text-light p-3 text-center text-sm-start " style = "background: #2d2d2d;">
+  <div class="container">
+    <div class = "d-sm-flex align-items-center
+    justify-content-between">
+      <div>
+      <h1>Hostels - VIT</h1>
+      <p class = "lead my-4" style = "color:yellow;font-weight: bold;">
+        We aspire to make the hostel a'home from home
+      </p>
+      <p>
+        Welcome to our cozy hostel - a haven of comfort, community, and memorable experiences. Explore, relax, and connect with travelers
+      </p>
+       <button class="btn btn-lg btn-primary" onclick = "location.href='student_form.php';" >Enroll now</button>
+      </div>
+      <img class = "img-fluid w-30 h-30 ms-auto "src="hostelmainimage.jpg" alt="hostel image"
+      style = "width : 325px ;height : 200px ">
+   </div>
+  </div>
+</section>
+
+<!-- end of hostel main page section -->
+
+<!-- start of Amenities section --> 
+<section class="p-5" id = "Amenities" style="background:#2d2d2d ;">
+  <div class="conatiner">
+    <div class="row mb-5 text-start text-dark font-weight - bolder "><h2 style = "color:white">Amenities</h2> 
+      <div class="card col-md col-sm-6 my-3 mx-3 shadow-lg rounded" style="width: 18rem;">
+        <div class = "mx-2" style = " border-radius: 5%">
+        <img src="rooms.jpg" class="card-img-top" alt="Rooms" style = " display : flex ;height : 150px; width : 70% ;margin-left: auto;margin-right:auto;border-radius : 5% ; position :relative; top :15px">
+        <div class="card-body">
+          <h5 class="card-title">Rooms</h5>
+          <p class="card-text">Discover the perfect blend of comfort, affordability, and camaraderie in our vibrant and welcoming hostel rooms.Our hostel rooms are designed to cater to all your needs</p>
+          <button class="btn btn-primary" onclick = "location.href='rooms.html';">Explore</button>
+        </div>
+      </div>
+      </div>
+      <div class="card col-md col-sm-6 my-3 mx-3 shadow-lg rounded" style="width: 18rem;">
+        <div class = "mx-2" style = " border-radius: 5%">
+        <img src="Mess.jpg" class="card-img-top" alt="Rooms" style = " display : flex ;height : 150px; width : 70% ;margin-left: auto;margin-right:auto;border-radius : 5% ; position :relative; top :15px">
+        <div class="card-body">
+          <h5 class="card-title">Mess</h5>
+          <p class="card-text">We believe in the importance of using fresh and high-quality ingredients to prepare our meals. Our mess follows strict hygiene standards, ensuring your safety and well-being while enjoying your meals.</p>
+          <button class="btn btn-primary" onclick = "location.href='mess.html';">Explore</button>
+        </div>
+      </div>
+      </div>
+
+      <div class="card  col-md col-sm-6 my-3 mx - 3 shadow-lg rounded " style="width: 18rem;">
+        <div class = "mx-2" style = " border-radius: 5% ;">
+        <img src="Wifi.jpg" class="card-img-top " alt="Wi-fi" style = " display : flex ;height :150px;width:70%;margin-left: auto;margin-right:auto; align-items:center;border-radius : 5% ; position :relative; top :15px">
+        <div class="card-body">
+          <h5 class="card-title">Wi-fi</h5>
+          <p class="card-text"> Our robust Wi-Fi network is designed to handle multiple devices simultaneously, guaranteeing a smooth online experience for all guests.</p>
+          <button class="btn btn-primary" onclick = "location.href='wifi.html';">Login</button>
+        </div>
+      </div>
+      </div>
+    </div>
+  
+
+
+    <div class="row ">
+      <div class="card col-md col-sm-6 my-3 mx-3 shadow-lg rounded" style="width: 18rem;">
+        <div class = "mx-2" style = "border-radius: 5%">
+        <img src="Gym.jpg" class="card-img-top" alt="Gym" style = " display : flex ;height : 150px; width : 70% ;margin-left: auto;margin-right:auto;border-radius : 5% ; position :relative; top :15px">
+        <div class="card-body">
+          <h5 class="card-title">Gym</h5>
+          <p class="card-text"> Whether you prefer cardio workouts to get your heart pumping or strength training to build and tone muscles, we've got you covered with a variety of exercise options.</p>
+          <button class="btn btn-primary" onclick = "location.href='gym.html';">Explore</button>
+        </div>
+      </div>
+      </div>
+      <div class="card col-md col-sm-6 my-3  mx-3 shadow-lg rounded" style="width: 18rem;">
+       <div  class = "mx-2" style = "border-radius: 5%">
+        <img src="gamings.jpg" class="card-img-top " alt="Gamezone" style = " display : flex ;height : 150px; width : 70% ; margin-left: auto;margin-right:auto;border-radius : 5% ; position :relative; top :15px">
+        <div class="card-body">
+          <h5 class="card-title">Game Zone</h5>
+          <p class="card-text">Get ready to level up your gaming experience! Our hostel boasts a state-of-the-art game room equipped with the latest gaming consoles, virtual reality setups, and a variety of multiplayer games. </p>
+          <a href="#" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+      </div>
+      <div class="card col-md col-sm-6 my-3 mx - 3 shadow-lg rounded" style="width: 18rem;">
+        <div class = "mx-2" style = "border-radius: 5%">
+        <img src="screeinings.jpg" class="card-img-top" alt="Screenings" style = " display : flex ;height : 150px; width : 70% ;margin-left: auto;margin-right:auto;border-radius : 5% ; position :relative; top :15px">
+        <div class="card-body">
+          <h5 class="card-title">Screenings</h5>
+          <p class="card-text">Occasionally, we host special theme nights, where we dive into specific genres, movie series, or celebrate iconic directors. Keep an eye out for these exciting events to add an extra layer of excitement to your movie night.</p>
+          <a href="#" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End of Amenities section -->
+
+<!-- Start of Gallery Section -->
+
+<section class = "p-5" id = "Gallery">
+  
+  <div class="container">
+    <div class="row mb-5 text-start text-dark font-weight - bolder "><h2>Gallery</h2></div> 
+    <div class="row mb-5 my-3">
+      <div class="col-md shadow-lg rounded mx-2" style="width: 18rem; border-radius:5%">
+        <img class="card-img-top" src="mh1 and 2.jpg" alt="Card image cap" style="border-radius: 5%;">
+        <!-- <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div> -->
+      </div>
+      <div class="col-md shadow-lg rounded mx-2" style="width: 18rem; border-radius: 5%;">
+        <img class="card-img-top" src="mh3.jpg" alt="Card image cap" style="border-radius: 5%;">
+        <!-- <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="row mb-5 my-3">
+      <div class="col-md shadow-lg rounded mx-2" style="width: 18rem; border-radius:5%">
+        <img class="card-img-top" src="mh4.jpg" alt="Card image cap" style="border-radius: 5%;">
+        <!-- <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div> -->
+      </div>
+      <div class="col-md shadow-lg rounded mx-2" style="width: 18rem; border-radius: 5%;">
+        <img class="card-img-top" src="ladies hostel.jpg" alt="Card image cap" style="border-radius: 5%;">
+        <!-- <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div> -->
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Gallery Section ends here -->
+<!-- Contact us section starts here -->
+
+<section class="p-5" id ="Contact Us" style="background:#2d2d2d ;">
+  <div class="container" style = "color: white;">
+    <div class="row mb-5 text-start text-dark font-weight - bolder "><h2 style = "color : white">Contact Us</h2></div>
+   
+    <div class="row mb-2">
+      <div class="col sm text-center"><h4 style = "text-decoration: underline;">Designation</h4></div>
+      <div class="col sm text-center"><h4 style = "text-decoration: underline;">Mail-id</h4></div>
+      <div class="col sm text-center"><h4 style = "text-decoration: underline;">Phone Number</h4></div>
+    </div>
+    
+    <div class="row mb-2">
+      <div class="col sm text-center"><p>Cheif Warden<p></div>
+      <div class="col sm text-center"><p>cheifwarden.vitap.ac.in</p></div>
+      <div class="col sm text-center"><p>1234567890<p></div>
+    </div>
+
+    <div class="row mb-2">
+      <div class="col sm text-center"><p>MH1-Warden<p></div>
+      <div class="col sm text-center"><p>mh1warden.vitap.ac.in</p></div>
+      <div class="col sm text-center"><p>1234567890<p></div>
+    </div>
+    <div class="row mb-2">
+      <div class="col sm text-center"><p>MH2-Warden<p></div>
+      <div class="col sm text-center"><p>mh2warden.vitap.ac.in</p></div>
+      <div class="col sm text-center"><p>1234567890<p></div>
+    </div>
+    <div class="row mb-2">
+      <div class="col sm text-center"><p>MH3-Warden<p></div>
+      <div class="col sm text-center"><p>mh3warden.vitap.ac.in</p></div>
+      <div class="col sm text-center"><p>1234567890<p></div>
+    </div>
+    <div class="row mb-2">
+      <div class="col sm text-center"><p>MH4-Warden<p></div>
+      <div class="col sm text-center"><p>mh4warden.vitap.ac.in</p></div>
+      <div class="col sm text-center"><p>1234567890<p></div>
+    </div>
+    <div class="row mb-2">
+      <div class="col sm text-center"><p>LH-Warden<p></div>
+      <div class="col sm text-center"><p>lhwarden.vitap.ac.in</p></div>
+      <div class="col sm text-center"><p>1234567890<p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-light">
+  <div class = "text-center p-3">
+      <a href="http://localhost:8000/chatbot.html" alt="chatbot" style = " color : white; font-weight:bold ; text-decoration:none;"> Talk to our Chatbot </p>
+  </div>
+
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+

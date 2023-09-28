@@ -1,0 +1,1119 @@
+{
+    "intents": [
+        {
+            "name": "greeting",
+            "samples": ["Hello!", "Hi there!", "Hey", "Good morning!"]
+        },
+        {
+            "name": "farewell",
+            "samples": ["Goodbye", "See you later", "Bye!", "Take care"]
+        },
+        {
+            "name": "check_availability",
+            "samples": ["Do you have any available rooms?", "What's the room availability?", "Can I book a room?", "Are there any vacancies?"]
+        },
+        {
+            "name": "room_types",
+            "samples": ["What types of rooms do you have?", "Tell me about your room options", "Describe different room types"]
+        },
+        {
+            "name": "pricing",
+            "samples": ["How much does a room cost?", "What's the price for a night?", "Tell me about your room rates"]
+        },
+        {
+            "name": "amenities",
+            "samples": ["What amenities do you offer?", "Tell me about your hostel facilities", "What are the available services?"]
+        },
+        {
+            "name": "booking_process",
+            "samples": ["How do I make a reservation?", "What's the booking process?", "Can you guide me through booking a room?"]
+        },
+        {
+            "name": "cancellation",
+            "samples": ["What's your cancellation policy?", "How can I cancel a booking?", "Tell me about cancellations"]
+        },
+        {
+            "name": "modify_booking",
+            "samples": ["Can I make changes to my booking?", "How do I modify my reservation?", "Is it possible to change dates after booking?"]
+        },
+        {
+            "name": "late_check-in",
+            "samples": ["What if I'm arriving late?", "Can I check in late at night?", "Do you have a late check-in process?"]
+        },
+        {
+            "name": "local_attractions",
+            "samples": ["What are some nearby attractions?", "Tell me about local sightseeing", "What can I explore around the hostel?"]
+        },
+        {
+            "name": "checkout_time",
+            "samples": ["What time is checkout?", "When do I need to check out?", "Tell me about the checkout timing"]
+        },
+        {
+            "name": "parking",
+            "samples": ["Is parking available?", "Do you have parking facilities?", "Tell me about parking options"]
+        },
+        {
+            "name": "pet_policy",
+            "samples": ["Are pets allowed?", "Can I bring my pet?", "Tell me about your pet policy"]
+        },
+        {
+            "name": "wifi",
+            "samples": ["Is there WiFi?", "Do you provide internet access?", "Tell me about your WiFi"]
+        },
+        {
+            "name": "breakfast",
+            "samples": ["Is breakfast included?", "Do you offer complimentary breakfast?", "Tell me about breakfast options"]
+        },
+        {
+            "name": "restaurant",
+            "samples": ["Is there an on-site restaurant?", "Do you have a dining facility?", "Tell me about food options"]
+        },
+        {
+            "name": "room_service",
+            "samples": ["Do you provide room service?", "Can I order food to my room?", "Tell me about room service"]
+        },
+        {
+            "name": "laundry",
+            "samples": ["Is laundry service available?", "Can I get my clothes washed?", "Tell me about laundry facilities"]
+        },
+        {
+            "name": "pool",
+            "samples": ["Is there a swimming pool?", "Do you have a pool?", "Tell me about the pool"]
+        },
+        {
+            "name": "gym",
+            "samples": ["Is there a gym?", "Do you have a fitness center?", "Tell me about the gym facilities"]
+        },
+        {
+            "name": "spa",
+            "samples": ["Is there a spa?", "Do you offer spa services?", "Tell me about spa amenities"]
+        },
+        {
+            "name": "events",
+            "samples": ["Are there any events or activities?", "Tell me about hostel events", "What's happening during my stay?"]
+        },
+        {
+            "name": "feedback",
+            "samples": ["How can I provide feedback?", "Can I leave a review?", "Tell me about giving feedback"]
+        },
+        {
+            "name": "lost_and_found",
+            "samples": ["I lost something, what should I do?", "What's your lost and found procedure?", "Tell me about lost items"]
+        },
+        {
+            "name": "emergency_contact",
+            "samples": ["What should I do in case of an emergency?", "Is there an emergency contact?", "Tell me about emergency procedures"]
+        },
+        {
+            "name": "special_requests",
+            "samples": ["Can I make special requests?", "Tell me about making specific requests", "Is it possible to request something unique?"]
+        },
+        {
+            "name": "group_booking",
+            "samples": ["Can I book for a group?", "Tell me about group reservations", "Do you offer group discounts?"]
+        },
+        {
+            "name": "student_discount",
+            "samples": ["Is there a student discount?", "Do you offer discounts for students?", "Tell me about student pricing"]
+        },
+        {
+            "name": "loyalty_program",
+            "samples": ["Do you have a loyalty program?", "Tell me about your loyalty rewards", "How can I join your loyalty program?"]
+        },
+        {
+            "name": "payment_methods",
+            "samples": ["What payment methods do you accept?", "Tell me about accepted payment options", "Can I pay with credit card?"]
+        },
+        {
+            "name": "contact_info",
+            "samples": ["How can I contact the hostel?", "Tell me your contact details", "What's your phone number?"]
+        },
+        {
+            "name": "language_support",
+            "samples": ["Is there language support for non-English speakers?", "Do you provide assistance in other languages?", "Tell me about language options"]
+        },
+        {
+            "name": "accessibility",
+            "samples": ["Is the hostel accessible for people with disabilities?", "Tell me about accessibility features", "Do you have facilities for wheelchair users?"]
+        },
+      
+          {
+            "name": "late_checkout",
+            "samples": ["Can I request a late checkout?", "What's the policy on late checkouts?", "Tell me about extending my checkout time"]
+          },
+          {
+            "name": "early_checkin",
+            "samples": ["Can I check in early?", "What's the policy on early check-ins?", "Tell me about arriving before the check-in time"]
+          },
+          {
+            "name": "payment_confirmation",
+            "samples": ["How do I receive payment confirmation?", "When will I get a payment receipt?", "Tell me about payment confirmation process"]
+          },
+          {
+            "name": "lost_reservation",
+            "samples": ["I lost my reservation details, what do I do?", "Help, I can't find my booking information", "Tell me about retrieving lost reservations"]
+          },
+          {
+            "name": "local_transportation",
+            "samples": ["What are the local transportation options?", "How can I get around the city?", "Tell me about public transportation"]
+          },
+          {
+            "name": "security_safety",
+            "samples": ["How secure is the hostel?", "Tell me about safety measures", "What security features do you have?"]
+          },
+          {
+            "name": "room_cleaning",
+            "samples": ["How often are the rooms cleaned?", "Tell me about room cleaning services", "Can I request housekeeping?"]
+          },
+          {
+            "name": "quiet_hours",
+            "samples": ["Are there quiet hours?", "Tell me about the quiet policy", "When should I keep the noise down?"]
+          },
+          {
+            "name": "alcohol_policy",
+            "samples": ["What's your alcohol policy?", "Tell me about alcohol restrictions", "Are we allowed to bring alcohol?"]
+          },
+          {
+            "name": "smoking_policy",
+            "samples": ["Is smoking allowed?", "Tell me about your smoking policy", "Where can I smoke?"]
+          },
+          {
+            "name": "pet_friendly_areas",
+            "samples": ["Where are the pet-friendly areas?", "Tell me about places I can go with my pet", "Are there designated pet zones?"]
+          },
+          {
+            "name": "child_policy",
+            "samples": ["What's your policy for children?", "Tell me about staying with kids", "Are there any age restrictions for guests?"]
+          },
+          {
+            "name": "privacy",
+            "samples": ["How is my privacy protected?", "Tell me about guest privacy", "Do you share guest information?"]
+          },
+          {
+            "name": "local_events",
+            "samples": ["Are there any local events happening?", "Tell me about nearby events", "What's going on in the area?"]
+          },
+          {
+            "name": "lost_key",
+            "samples": ["I lost my room key, what should I do?", "Help, I can't find my key", "Tell me about lost room keys"]
+          },
+          {
+            "name": "group_activities",
+            "samples": ["Are there any group activities?", "Tell me about group events", "Do you organize social activities?"]
+          },
+          {
+            "name": "special_occasions",
+            "samples": ["Can you arrange something special for an occasion?", "Tell me about celebrating special events", "Do you offer anniversary packages?"]
+          },
+          {
+            "name": "local_dining",
+            "samples": ["Where can I find good restaurants nearby?", "Tell me about local dining options", "Where should I go for dinner?"]
+          },
+          {
+            "name": "check-in_process",
+            "samples": ["What's the check-in process?", "Tell me about the check-in procedure", "How do I check in?"]
+          },
+          {
+            "name": "check-out_process",
+            "samples": ["What's the check-out process?", "Tell me about the check-out procedure", "How do I check out?"]
+          },
+          {
+            "name": "visitor_policy",
+            "samples": ["Can I have visitors?", "Tell me about your visitor policy", "Are guests allowed in rooms?"]
+          },
+          {
+            "name": "lost_property",
+            "samples": ["I found lost property, what should I do?", "What's the procedure for found items?", "Tell me about lost and found items"]
+          },
+          {
+            "name": "environmental_initiatives",
+            "samples": ["Tell me about your eco-friendly initiatives", "What's your approach to sustainability?", "Do you have any environmental programs?"]
+          },
+          {
+            "name": "late_night_services",
+            "samples": ["Are there any services available late at night?", "Tell me about late-night facilities", "What's open during the night?"]
+          },
+          {
+            "name": "business_facilities",
+            "samples": ["Do you offer business facilities?", "Tell me about business services", "Are there meeting rooms available?"]
+          },
+          {
+            "name": "package_delivery",
+            "samples": ["Can I receive packages at the hostel?", "Tell me about receiving mail and packages", "How do I get mail here?"]
+          },
+          {
+            "name": "public_spaces",
+            "samples": ["Tell me about the common areas", "What are the shared spaces like?", "Can I hang out in common areas?"]
+          },
+          {
+            "name": "lost_electronics",
+            "samples": ["I left my charger, what do I do?", "Help, I lost my electronics", "Tell me about lost electronic items"]
+          },
+          {
+            "name": "group_travel_tips",
+            "samples": ["Do you have any tips for group travelers?", "Tell me about traveling in a group", "What should I know when traveling with friends?"]
+          },
+          {
+            "name": "late_check-in_procedure",
+            "samples": ["How does late check-in work?", "Tell me about checking in late", "What's the process for arriving after hours?"]
+          },
+          {
+            "name": "early_check-out_procedure",
+            "samples": ["How does early check-out work?", "Tell me about checking out early", "What's the process for leaving before the regular checkout time?"]
+          },
+          {
+            "name": "power_outage",
+            "samples": ["What should I do during a power outage?", "Help, there's no electricity", "Tell me about handling power cuts"]
+          },
+          {
+            "name": "room_temperature",
+            "samples": ["How can I control the room temperature?", "Tell me about adjusting room heating or cooling", "Is there air conditioning?"]
+          },
+          {
+            "name": "lost_personal_items",
+            "samples": ["I left my personal items, what should I do?", "Help, I lost my belongings", "Tell me about lost personal items"]
+          },
+          {
+            "name": "social_distancing",
+            "samples": ["Are there social distancing measures?", "Tell me about COVID-19 safety", "How are you ensuring guest safety?"]
+          },
+          {
+            "name": "vaccine_requirement",
+            "samples": ["Do I need to be vaccinated to stay?", "Tell me about vaccine requirements", "Is proof of vaccination necessary?"]
+          },
+          {
+            "name": "medical_facilities",
+            "samples": ["Are there medical facilities nearby?", "Tell me about local hospitals", "What should I do in case of a medical emergency?"]
+          },
+          {
+            "name": "transportation_to_airport",
+            "samples": ["How can I get to the airport?", "Tell me about transportation options to the airport", "What's the best way to reach the airport?"]
+          },
+          {
+            "name": "local_language_support",
+            "samples": ["Is there support for the local language?", "Tell me about language assistance", "Do you provide translation services?"]
+          },
+          {
+            "name": "lost_wallet",
+            "samples": ["I lost my wallet, what should I do?", "Help, I can't find my wallet", "Tell me about lost wallets"]
+          },
+          {
+            "name": "sightseeing_recommendations",
+            "samples": ["Can you recommend local sightseeing spots?", "Tell me about popular attractions", "What places should I visit?"]
+          },
+          {
+            "name": "booking_confirmation",
+            "samples": ["How do I receive booking confirmation?", "When will I get a booking confirmation?", "Tell me about reservation confirmations"]
+          },
+          {
+            "name": "special_dietary_needs",
+            "samples": ["Do you accommodate special dietary needs?", "Tell me about dietary restrictions", "Can you provide vegan meals?"]
+          },
+          {
+            "name": "quiet_area",
+            "samples": ["Is there a quiet area in the hostel?", "Tell me about peaceful spots", "Where can I go for some quiet time?"]
+          },
+          {
+            "name": "local_culture_events",
+            "samples": ["Are there any local cultural events?", "Tell me about cultural activities", "What cultural experiences can I have?"]
+          },
+          {
+            "name": "lost_documents",
+            "samples": ["I lost my important documents, what should I do?", "Help, I can't find my documents", "Tell me about lost identification"]
+          },
+          {
+            "name": "check-in_age_requirement",
+            "samples": ["What's the minimum age for check-in?", "Tell me about age restrictions", "Is there an age requirement to stay?"]
+          },
+          {
+            "name": "local_public_transport",
+            "samples": ["How can I use public transportation?", "Tell me about local buses and trains", "What's the best way to get around the city?"]
+          },
+          {
+            "name": "lost_jewelry",
+            "samples": ["I lost my jewelry, what should I do?", "Help, I can't find my accessories", "Tell me about lost jewelry items"]
+          },
+          {
+            "name": "check-in_id_requirement",
+            "samples": ["What identification is required for check-in?", "Tell me about ID verification", "What documents do I need to show upon arrival?"]
+          },
+          {
+            "name": "local_shopping",
+            "samples": ["Where can I go shopping nearby?", "Tell me about local shopping areas", "Are there any good shops around?"]
+          },
+          {
+            "name": "lost_glasses",
+            "samples": ["I lost my glasses, what should I do?", "Help, I can't find my eyewear", "Tell me about lost glasses"]
+          },
+          {
+            "name": "check-in_time_range",
+            "samples": ["What's the check-in time range?", "Tell me about flexible check-in hours", "When can I arrive for check-in?"]
+          },
+          {
+            "name": "local_entertainment",
+            "samples": ["What entertainment options are there nearby?", "Tell me about local nightlife", "Where can I have fun in the evenings?"]
+          },
+          {
+            "name": "lost_clothing",
+            "samples": ["I lost my clothing, what should I do?", "Help, I can't find my clothes", "Tell me about lost clothing items"]
+          },
+          {
+            "tag": "greeting",
+            "patterns": [
+               "Hi",
+               "How are you?",
+               "Is anyone there?",
+               "Hello",
+               "Good day",
+               "What's up",
+               "how are ya",
+               "heyy",
+               "whatsup",
+               "??? ??? ??"
+            ],
+            "responses": [
+               "Hello!",
+               "Good to see you again!",
+               "Hi there, how can I help?"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "goodbye",
+            "patterns": [
+               "cya",
+               "see you",
+               "bye bye",
+               "See you later",
+               "Goodbye",
+               "I am Leaving",
+               "Bye",
+               "Have a Good day",
+               "talk to you later",
+               "ttyl",
+               "i got to go",
+               "gtg"
+            ],
+            "responses": [
+               "Sad to see you go :(",
+               "Talk to you later",
+               "Goodbye!",
+               "Come back soon"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "creator",
+            "patterns": [
+               "what is the name of your developers",
+               "what is the name of your creators",
+               "what is the name of the developers",
+               "what is the name of the creators",
+               "who created you",
+               "your developers",
+               "your creators",
+               "who are your developers",
+               "developers",
+               "you are made by",
+               "you are made by whom",
+               "who created you",
+               "who create you",
+               "creators",
+               "who made you",
+               "who designed you"
+            ],
+            "responses": [
+               "College students"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "name",
+            "patterns": [
+               "name",
+               "your name",
+               "do you have a name",
+               "what are you called",
+               "what is your name",
+               "what should I call you",
+               "whats your name?",
+               "what are you",
+               "who are you",
+               "who is this",
+               "what am i chatting to",
+               "who am i taking to",
+               "what are you"
+            ],
+            "responses": [
+               "You can call me Mind Reader.",
+               "I'm Mind Reader",
+               "I am a Chatbot.",
+               "I am your helper"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "hours",
+            "patterns": [
+               "timing of college",
+               "what is college timing",
+               "working days",
+               "when are you guys open",
+               "what are your hours",
+               "hours of operation",
+               "when is the college open",
+               "college timing",
+               "what about college timing",
+               "is college open on saturday",
+               "tell something about college timing",
+               "what is the college  hours",
+               "when should i come to college",
+               "when should i attend college",
+               "what is my college time",
+               "college timing",
+               "timing college"
+            ],
+            "responses": [
+               "College is open 8am-5pm Monday-Saturday!"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "number",
+            "patterns": [
+               "more info",
+               "contact info",
+               "how to contact college",
+               "college telephone number",
+               "college number",
+               "What is your contact no",
+               "Contact number?",
+               "how to call you",
+               "College phone no?",
+               "how can i contact you",
+               "Can i get your phone number",
+               "how can i call you",
+               "phone number",
+               "phone no",
+               "call"
+            ],
+            "responses": [
+               "You can contact at: NUMBER"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "course",
+            "patterns": [
+               "list of courses",
+               "list of courses offered",
+               "list of courses offered in",
+               "what are the courses offered in your college?",
+               "courses?",
+               "courses offered",
+               "courses offered in (your univrsity(UNI) name)",
+               "courses you offer",
+               "branches?",
+               "courses available at UNI?",
+               "branches available at your college?",
+               "what are the courses in UNI?",
+               "what are branches in UNI?",
+               "what are courses in UNI?",
+               "branches available in UNI?",
+               "can you tell me the courses available in UNI?",
+               "can you tell me the branches available in UNI?",
+               "computer engineering?",
+               "computer",
+               "Computer engineering?",
+               "it",
+               "IT",
+               "Information Technology",
+               "AI/Ml",
+               "Mechanical engineering",
+               "Chemical engineering",
+               "Civil engineering"
+            ],
+            "responses": [
+               "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "fees",
+            "patterns": [
+               "information about fee",
+               "information on fee",
+               "tell me the fee",
+               "college fee",
+               "fee per semester",
+               "what is the fee of each semester",
+               "what is the fees of each year",
+               "what is fee",
+               "what is the fees",
+               "how much is the fees",
+               "fees for first year",
+               "fees",
+               "about the fees",
+               "tell me something about the fees",
+               "What is the fees of hostel",
+               "how much is the fees",
+               "hostel fees",
+               "fees for AC room",
+               "fees for non-AC room",
+               "fees for Ac room for girls",
+               "fees for non-Ac room for girls",
+               "fees for Ac room for boys",
+               "fees for non-Ac room for boys"
+            ],
+            "responses": [
+               "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "location",
+            "patterns": [
+               "where is the college located",
+               "college is located at",
+               "where is college",
+               "where is college located",
+               "address of college",
+               "how to reach college",
+               "college location",
+               "college address",
+               "wheres the college",
+               "how can I reach college",
+               "whats is the college address",
+               "what is the address of college",
+               "address",
+               "location"
+            ],
+            "responses": [
+               "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "hostel",
+            "patterns": [
+               "hostel facility",
+               "hostel servive",
+               "hostel location",
+               "hostel address",
+               "hostel facilities",
+               "hostel fees",
+               "Does college provide hostel",
+               "Is there any hostel",
+               "Where is hostel",
+               "do you have hostel",
+               "do you guys have hostel",
+               "hostel",
+               "hostel capacity",
+               "what is the hostel fee",
+               "how to get in hostel",
+               "what is the hostel address",
+               "how far is hostel from college",
+               "hostel college distance",
+               "where is the hostel",
+               "how big is the hostel",
+               "distance between college and hostel",
+               "distance between hostel and college"
+            ],
+            "responses": [
+               "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "event",
+            "patterns": [
+               "events organised",
+               "list of events",
+               "list of events organised in college",
+               "list of events conducted in college",
+               "What events are conducted in college",
+               "Are there any event held at college",
+               "Events?",
+               "functions",
+               "what are the events",
+               "tell me about events",
+               "what about events"
+            ],
+            "responses": [
+               "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "document",
+            "patterns": [
+               "document to bring",
+               "documents needed for admision",
+               "documents needed at the time of admission",
+               "documents needed during admission",
+               "documents required for admision",
+               "documents required at the time of admission",
+               "documents required during admission",
+               "What document are required for admission",
+               "Which document to bring for admission",
+               "documents",
+               "what documents do i need",
+               "what documents do I need for admission",
+               "documents needed"
+            ],
+            "responses": [
+               "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE\"> here</a>"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "floors",
+            "patterns": [
+               "size of campus",
+               "building size",
+               "How many floors does college have",
+               "floors in college",
+               "floors in college",
+               "how tall is UNI's College of Engineering college building",
+               "floors"
+            ],
+            "responses": [
+               "My College has total 2 floors "
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "syllabus",
+            "patterns": [
+               "Syllabus for IT",
+               "what is the Information Technology syllabus",
+               "syllabus",
+               "timetable",
+               "what is IT syllabus",
+               "syllabus",
+               "What is next lecture"
+            ],
+            "responses": [
+               "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "library",
+            "patterns": [
+               "is there any library",
+               "library facility",
+               "library facilities",
+               "do you have library",
+               "does the college have library facility",
+               "college library",
+               "where can i get books",
+               "book facility",
+               "Where is library",
+               "Library",
+               "Library information",
+               "Library books information",
+               "Tell me about library",
+               "how many libraries"
+            ],
+            "responses": [
+               "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "infrastructure",
+            "patterns": [
+               "how is college infrastructure",
+               "infrastructure",
+               "college infrastructure"
+            ],
+            "responses": [
+               "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "canteen",
+            "patterns": [
+               "food facilities",
+               "canteen facilities",
+               "canteen facility",
+               "is there any canteen",
+               "Is there a cafetaria in college",
+               "Does college have canteen",
+               "Where is canteen",
+               "where is cafetaria",
+               "canteen",
+               "Food",
+               "Cafetaria"
+            ],
+            "responses": [
+               "Our university has canteen with variety of food available"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "menu",
+            "patterns": [
+               "food menu",
+               "food in canteen",
+               "Whats there on menu",
+               "what is available in college canteen",
+               "what foods can we get in college canteen",
+               "food variety",
+               "What is there to eat?"
+            ],
+            "responses": [
+               "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "placement",
+            "patterns": [
+               "What is college placement",
+               "Which companies visit in college",
+               "What is average package",
+               "companies visit",
+               "package",
+               "About placement",
+               "placement",
+               "recruitment",
+               "companies"
+            ],
+            "responses": [
+               "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE\">here</a>"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "ithod",
+            "patterns": [
+               "Who is HOD",
+               "Where is HOD",
+               "it hod",
+               "name of it hod"
+            ],
+            "responses": [
+               "All engineering departments have only one hod XYZ who available on (Place name)"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "computerhod",
+            "patterns": [
+               "Who is computer HOD",
+               "Where is computer HOD",
+               "computer hod",
+               "name of computer hod"
+            ],
+            "responses": [
+               "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "extchod",
+            "patterns": [
+               "Who is extc HOD",
+               "Where is  extc HOD",
+               "extc hod",
+               "name of extc hod"
+            ],
+            "responses": [
+               "Different school wise hod are different.So be more clear with your school or department"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "principal",
+            "patterns": [
+               "what is the name of principal",
+               "whatv is the principal name",
+               "principal name",
+               "Who is college principal",
+               "Where is principal's office",
+               "principal",
+               "name of principal"
+            ],
+            "responses": [
+               "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "sem",
+            "patterns": [
+               "exam dates",
+               "exam schedule",
+               "When is semester exam",
+               "Semester exam timetable",
+               "sem",
+               "semester",
+               "exam",
+               "when is exam",
+               "exam timetable",
+               "exam dates",
+               "when is semester"
+            ],
+            "responses": [
+               "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "admission",
+            "patterns": [
+               "what is the process of admission",
+               "what is the admission process",
+               "How to take admission in your college",
+               "What is the process for admission",
+               "admission",
+               "admission process"
+            ],
+            "responses": [
+               "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "scholarship",
+            "patterns": [
+               "scholarship",
+               "Is scholarship available",
+               "scholarship engineering",
+               "scholarship it",
+               "scholarship ce",
+               "scholarship mechanical",
+               "scholarship civil",
+               "scholarship chemical",
+               "scholarship for AI/ML",
+               "available scholarships",
+               "scholarship for computer engineering",
+               "scholarship for IT engineering",
+               "scholarship for mechanical engineering",
+               "scholarship for civil engineering",
+               "scholarship for chemical engineering",
+               "list of scholarship",
+               "comps scholarship",
+               "IT scholarship",
+               "mechanical scholarship",
+               "civil scholarship",
+               "chemical scholarship",
+               "automobile scholarship",
+               "first year scholarship",
+               "second year scholarship",
+               "third year scholarship",
+               "fourth year scholarship"
+            ],
+            "responses": [
+               "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "facilities",
+            "patterns": [
+               "What facilities college provide",
+               "College facility",
+               "What are college facilities",
+               "facilities",
+               "facilities provided"
+            ],
+            "responses": [
+               "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "college intake",
+            "patterns": [
+               "max number of students",
+               "number of seats per branch",
+               "number of seats in each branch",
+               "maximum number of seats",
+               "maximum students intake",
+               "What is college intake",
+               "how many stundent are taken in each branch",
+               "seat allotment",
+               "seats"
+            ],
+            "responses": [
+               "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "uniform",
+            "patterns": [
+               "college dress code",
+               "college dresscode",
+               "what is the uniform",
+               "can we wear casuals",
+               "Does college have an uniform",
+               "Is there any uniform",
+               "uniform",
+               "what about uniform",
+               "do we have to wear uniform"
+            ],
+            "responses": [
+               "ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "committee",
+            "patterns": [
+               "what are the different committe in college",
+               "different committee in college",
+               "Are there any committee in college",
+               "Give me committee details",
+               "committee",
+               "how many committee are there in college"
+            ],
+            "responses": [
+               "For the various committe in college contact this number: ADD NUMBER"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "random",
+            "patterns": [
+               "I love you",
+               "Will you marry me",
+               "Do you love me"
+            ],
+            "responses": [
+               "I am not program for this, please ask appropriate query"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "swear",
+            "patterns": [
+               "fuck",
+               "bitch",
+               "shut up",
+               "hell",
+               "stupid",
+               "idiot",
+               "dumb ass",
+               "asshole",
+               "fucker"
+            ],
+            "responses": [
+               "please use appropriate language",
+               "Maintaining decency would be appreciated"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "vacation",
+            "patterns": [
+               "holidays",
+               "when will semester starts",
+               "when will semester end",
+               "when is the holidays",
+               "list of holidays",
+               "Holiday in these year",
+               "holiday list",
+               "about vacations",
+               "about holidays",
+               "When is vacation",
+               "When is holidays",
+               "how long will be the vacation"
+            ],
+            "responses": [
+               "Academic calender is given to you by your class-soordinators after you join your respective classes"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "sports",
+            "patterns": [
+               "sports and games",
+               "give sports details",
+               "sports infrastructure",
+               "sports facilities",
+               "information about sports",
+               "Sports activities",
+               "please provide sports and games information"
+            ],
+            "responses": [
+               "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "salutaion",
+            "patterns": [
+               "okk",
+               "okie",
+               "nice work",
+               "well done",
+               "good job",
+               "thanks for the help",
+               "Thank You",
+               "its ok",
+               "Thanks",
+               "Good work",
+               "k",
+               "ok",
+               "okay"
+            ],
+            "responses": [
+               "I am glad I helped you",
+               "welcome, anything else i can assist you with?"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "task",
+            "patterns": [
+               "what can you do",
+               "what are the thing you can do",
+               "things you can do",
+               "what can u do for me",
+               "how u can help me",
+               "why i should use you"
+            ],
+            "responses": [
+               "I can answer to low-intermediate questions regarding college",
+               "You can ask me questions regarding college, and i will try to answer them"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "ragging",
+            "patterns": [
+               "ragging",
+               "is ragging practice active in college",
+               "does college have any antiragging facility",
+               "is there any ragging cases",
+               "is ragging done here",
+               "ragging against",
+               "antiragging facility",
+               "ragging juniors",
+               "ragging history",
+               "ragging incidents"
+            ],
+            "responses": [
+               "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+            ],
+            "context_set": ""
+         },
+          {
+            "tag": "hod",
+            "patterns": [
+               "hod",
+               "hod name",
+               "who is the hod"
+            ],
+            "responses": [
+               "HODs differ for each branch, please be more specific like: (HOD it)"
+            ],
+            "context_set": ""
+         }
+        ]
+      }  

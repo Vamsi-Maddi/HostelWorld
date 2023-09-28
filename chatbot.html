@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot Interaction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        
+        #header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        #chatContainer {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        
+        #conversation {
+            border-bottom: 1px solid #ccc;
+            padding: 10px;
+            height: 300px;
+            overflow-y: scroll;
+        }
+        
+        #chatForm {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        
+        #userInput {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        #submitBtn {
+            padding: 8px 15px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        #submitBtn:hover {
+            background-color: #555;
+        }
+        
+        .message {
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        
+        .user-message {
+            background-color: #f0f0f0;
+        }
+        
+        .chatbot-message {
+            background-color: #e0eaf5;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Chatbot Interaction</h1>
+    </div>
+    <div id="chatContainer">
+        <div id="conversation"></div>
+        <form id="chatForm">
+            <input type="text" id="userInput" placeholder="Enter your message...">
+            <button type="button" id="submitBtn">Send</button>
+        </form>
+    </div>
+
+    <script>
+        const conversationContainer = document.getElementById('conversation');
+        const userInputField = document.getElementById('userInput');
+        
+        document.getElementById('submitBtn').addEventListener('click', async function() {
+            const userInput = userInputField.value;
+            if (userInput.trim() === '') {
+                return;
+            }
+            
+            const userMessage = document.createElement('div');
+            userMessage.className = 'message user-message';
+            userMessage.textContent = `You: ${userInput}`;
+            conversationContainer.appendChild(userMessage);
+
+            const chatbotMessage = document.createElement('div');
+            chatbotMessage.className = 'message chatbot-message';
+            conversationContainer.appendChild(chatbotMessage);
+            
+            const response = await fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: `user_input=${encodeURIComponent(userInput)}`,
+            }).then(response => response.json());
+
+            chatbotMessage.textContent = `Chatbot: ${response.response}`;
+
+            conversationContainer.scrollTop = conversationContainer.scrollHeight;
+            userInputField.value = '';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Gym</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .gym-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 400px;
+        }
+
+        h1 {
+            margin: 0;
+            color: #333;
+            font-size: 24px;
+        }
+
+        .equipment-list {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .equipment-list h2 {
+            margin: 15px 0;
+            font-size: 18px;
+            color: #555;
+        }
+
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+
+        button {
+            background-color: #333;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="gym-container">
+        <h1>Welcome to Our Hostel Gym</h1>
+        <p>Stay fit and healthy during your stay with our well-equipped gym facilities.</p>
+        <div class="equipment-list">
+            <h2>Available Equipment:</h2>
+            <ul>
+                <li>Treadmill</li>
+                <li>Elliptical Trainer</li>
+                <li>Exercise Bike</li>
+                <li>Free Weights</li>
+                <li>Weight Machines</li>
+                <li>Yoga Mats</li>
+            </ul>
+        </div>
+        <button id="joinBtn">Join the Gym</button>
+    </div>
+
+    <script>
+        const joinBtn = document.getElementById('joinBtn');
+
+        joinBtn.addEventListener('click', () => {
+            alert('You have successfully joined the hostel gym! Enjoy your workout.');
+        });
+    </script>
+</body>
+</html>

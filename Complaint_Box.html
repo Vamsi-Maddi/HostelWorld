@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration Form</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #e1bee7, #90caf9);
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #444;
+        margin-bottom: 20px;
+    }
+
+    .form-container {
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group.horizontal {
+        display: flex;
+        align-items: center;
+    }
+
+    .form-group.horizontal label {
+        width: 150px;
+        padding-right: 10px;
+        text-align: right;
+        color: #444;
+    }
+
+    .form-control {
+        flex: 1;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .form-control:focus {
+        outline: none;
+        border-color: #666;
+        box-shadow: 0 0 5px rgba(102, 102, 102, 0.5);
+    }
+
+    .input-group {
+        flex: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    .input-group .form-control {
+        margin-right: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: #2980b9;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+        padding: 12px 0;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #154360;
+    }
+
+    #result {
+        color: #27ae60;
+    }
+    
+    /* Increase image size to 740x740 pixels */
+    .registration-image {
+        width: 740px;
+        height: 560px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 d-none d-lg-block">
+            <img src="complaint_box.jpg" class="img-fluid registration-image" alt="Image">
+            <p>
+                Write some content here about the form, explaining what it is for and any other relevant details.
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-container">
+                <h1>Student Registration Form</h1>
+                <form action="index2.php" method="post">
+                    <div class="form-group horizontal">
+                        <label for="sname">Name:</label>
+                        <input type="text" name="sname" id="sname" class="form-control" placeholder="Enter your Name here">
+                    </div>
+                    <div class="form-group horizontal">
+                        <label for="sno">Registration Number:</label>
+                        <input type="text" name="sno" id="sno" class="form-control" placeholder="Enter your Registration Number here">
+                    </div>
+                    <div class="form-group horizontal">
+                        <label for="smail">E-Mail:</label>
+                        <input type="email" name="smail" id="smail" class="form-control" placeholder="Enter your E-Mail">
+                    </div>
+                    <div class="form-group horizontal">
+                        <label>From Date:</label>
+                        <div class="input-group">
+                            <input type="date" name="sdate" id="sdate" class="form-control">
+                            <span style="padding: 0 5px;">To</span>
+                            <input type="date" name="edate" id="edate" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group horizontal">
+                        <label>From Time:</label>
+                        <div class="input-group">
+                            <input type="time" name="sfrom" id="sfrom" class="form-control">
+                            <span style="padding: 0 5px;">To</span>
+                            <input type="time" name="sto" id="sto" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group horizontal">
+                        <label for="sblock">Block Number:</label>
+                        <input type="text" name="sblock" id="sblock" class="form-control" placeholder="Enter Block Number">
+                    </div>
+                    <div class="form-group horizontal">
+                        <label for="sroom">Room Number:</label>
+                        <input type="text" name="sroom" id="sroom" class="form-control" placeholder="Enter Room Number">
+                    </div>
+                    <div class="form-group horizontal">
+                        <label>Complaint about:</label>
+                        <div class="input-group">
+                            <select name="complaint" id="complaint" class="form-control">
+                                <option value="hostel">Hostel</option>
+                                <option value="room">Room</option>
+                                <option value="mess">Mess</option>
+                                <option value="staff">Staff</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group horizontal">
+                        <label>Write your complaint here:</label>
+                        <textarea name="complaint_text" id="complaint_text" class="form-control" rows="4" placeholder="Enter your complaint here"></textarea>
+                    </div>
+                    <div class="form-group horizontal submit">
+                        <input type="submit" value="Submit" class="btn btn-primary">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration Form</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #e1bee7, #90caf9);
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #444;
+        margin-bottom: 20px;
+    }
+
+    .form-container {
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group.horizontal {
+        display: flex;
+        align-items: center;
+    }
+
+    .form-group.horizontal label {
+        width: 150px;
+        padding-right: 10px;
+        text-align: right;
+        color: #444;
+    }
+
+    .form-control {
+        flex: 1;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .form-control:focus {
+        outline: none;
+        border-color: #666;
+        box-shadow: 0 0 5px rgba(102, 102, 102, 0.5);
+    }
+
+    input[type="submit"] {
+        background-color: #2980b9;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+        padding: 12px 0;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #154360;
+    }
+
+    #result {
+        color: #27ae60;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 d-none d-lg-block">
+            <img src="college.jpg" class="img-fluid" alt="Image">
+            <p>
+                Complete our student enrollment form to secure a spot in our welcoming hostel. Enjoy a comfortable stay and a vibrant campus community.
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-container">
+                <h1>Student Registration Form</h1>
+                <form action="index2.php" method="post">
+                        <div class="form-group horizontal">
+                            <label for="sname">Name:</label>
+                            <input type="text" name="sname" id="sname" class="form-control" placeholder="Enter your Name here">
+                        </div>
+                        <div class="form-group horizontal">
+                            <label for="sno">Reg No:</label>
+                            <input type="text" name="sno" id="sno" class="form-control" placeholder="Enter your Reg.No here">
+                        </div>
+                        <div class="form-group horizontal">
+                            <label for="smail">Mail:</label>
+                            <input type="email" name="smail" id="smail" class="form-control" placeholder="Enter your E-Mail">
+                        </div>
+                        <div class="form-group horizontal select">
+                            <label for="sgender">Gender:</label>
+                            <select name="sgender" id="sgender" class="form-control">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+                        <div class="form-group horizontal">
+                            <label for="sbranch">Branch:</label>
+                            <select name="sbranch" id="sbranch" class="form-control">
+                                <option value="CSE">Computer Science</option>
+                                <option value="IT">Information Technology</option>
+                                <option value="ECE">Electronics and Communication Engineering</option>
+                                <option value="EEE">Electrical and Electronics Engineering</option>
+                            </select>
+                        </div>
+                        <div class="form-group horizontal">
+                            <label for="syear">Year:</label>
+                            <input type="text" name="syear" id="syear" class="form-control">
+                        </div>
+                        <div class="form-group horizontal">
+                            <label for="ssem">Semester:</label>
+                            <select name="ssem" id="ssem" class="form-control">
+                                <option value="1">1st Semester</option>
+                                <option value="2">2nd Semester</option>
+                                <option value="3">3rd Semester</option>
+                                <option value="4">4th Semester</option>
+                                <option value="5">5th Semester</option>
+                                <option value="6">6th Semester</option>
+                                <option value="7">7th Semester</option>
+                                <option value="8">8th Semester</option>
+                            </select>
+                        </div>
+                        <div class="form-group horizontal select">
+                            <label for="sroom">Room Type:</label>
+                            <select name="sroom" id="sroom" class="form-control">
+                                <option value="two_bedroom">Two Bedroom</option>
+                                <option value="four_bedroom">Four Bedroom</option>
+                                <option value="apartment">Apartment Type</option>
+                                <option value="dormitory">Dormitory</option>
+                            </select>
+                        </div>
+                        <div class="form-group horizontal select">
+                            <label for="smess">Mess Type:</label>
+                            <select name="smess" id="smess" class="form-control">
+                                <option value="veg">Veg</option>
+                                <option value="non_veg">Non-Veg</option>
+                                <option value="special">Special</option>
+                            </select>
+                        </div>
+                        <div class="form-group horizontal submit">
+                            <input type="submit" value="Submit" class="btn btn-primary">
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
